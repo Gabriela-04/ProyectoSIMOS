@@ -13,6 +13,7 @@ export const profileSchema = z.object({
   contactno: z.coerce.number(),
   country: z.string().min(1, { message: 'Please select a category' }),
   city: z.string().min(1, { message: 'Please select a category' }),
+  accountState: z.string().min(1, { message: 'Please select a state' }),
   // jobs array is for the dynamic fields
   jobs: z.array(
     z.object({

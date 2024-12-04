@@ -19,7 +19,7 @@ export const users: User[] = [
   },
   {
     id: 2,
-    name: 'John Doe',
+    name: 'Danni2002',
     company: 'TechCorp',
     role: 'Backend Developer',
     verified: true,
@@ -154,7 +154,7 @@ export const navItems: NavItem[] = [
 
     items: [
       {
-        title: 'Profile',
+        title: 'Mi Perfil',
         url: '/dashboard/profile',
         icon: 'userPen',
         shortcut: ['m', 'm']

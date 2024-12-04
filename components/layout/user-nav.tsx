@@ -42,7 +42,7 @@ export function UserNav() {
           <DropdownMenuSeparator />
           <DropdownMenuGroup>
             <DropdownMenuItem>
-              Profile
+              Mi Perfil
               <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
             </DropdownMenuItem>
             <DropdownMenuItem>

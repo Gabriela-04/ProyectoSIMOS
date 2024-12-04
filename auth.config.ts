@@ -20,7 +20,7 @@ const authConfig = {
       async authorize(credentials, req) {
         const user = {
           id: '1',
-          name: 'John',
+          name: 'Dani2002',
           email: credentials?.email as string
         };
         if (user) {
